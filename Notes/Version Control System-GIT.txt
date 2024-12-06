@@ -1,3 +1,24 @@
 Below are some of the GIT Commands 
 
-1)git init - to create a local GIT Repository.
+1)git init -> to create a local GIT Repository.
+
+2)git add <filename> -> to stage the file into staging area from working directory.
+
+3)git add . -> to stage all files in working directory to staging area.
+
+4)git commit -m "Commit Message"  -> to commit the changes into Local Repository.
+
+5)git commit -a -m "Commit Message" -> to skip staging and directly commit changes from working directory to local repository
+
+6)git rm --cached <filename> -> to remove files from staging/local git repository
+
+7)git diff  -> to see changes made in working Directory.
+
+8)git diff --stage -> to see difference between Staged Files and Working Directory
+
+
+9)git remote add origin <gitremoterepo link>  -> adding/linking remote repo to local repo
+
+10)git push -u origin main     ->pushing local git code to remote repository
+
+11)git clone <gitrepolink>  ->clone remote git rep into our local machine
