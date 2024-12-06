@@ -22,3 +22,7 @@ Below are some of the GIT Commands
 10)git push -u origin main     ->pushing local git code to remote repository
 
 11)git clone <gitrepolink>  ->clone remote git rep into our local machine
+
+12)Generate SHH Key  -> ssh-keygen -o
+
+after generating key ….copy the key and place the key for remote repo in Remote GIT Repository (to push code from authorised users)
