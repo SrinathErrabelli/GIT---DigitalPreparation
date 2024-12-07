@@ -1,0 +1,5 @@
+1)cd - change directory
+2)pwd - present working directory
+3)ls - list of files/folders in present working directory
+4)touch <filename> - to create a file in pwd
+5)mkdir <foldername> - to create folder/directory
