@@ -26,3 +26,19 @@ Below are some of the GIT Commands
 12)Generate SHH Key  -> ssh-keygen -o
 
 after generating key ….copy the key and place the key for remote repo in Remote GIT Repository (to push code from authorised users)
+
+13)git branch       -> list down all the branches in local repository
+   git branch --all ->list down all local and Remote Repository branches.
+
+14)git checkout -b <branchname> -> to create a new branch 
+   git switch -c <branchname> -> to create a new branch
+
+	git switch <branchname> -> switch to a new branch 
+	git checkout <branchname> -> switch to a new branch 
+
+15)lets say your on main branch ---> git merge <branchname>
+  branch will be merged with main branch
+
+16)git branch -d <branchname> -> to delete a branch from local repository
+
+17)..
